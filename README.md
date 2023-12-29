@@ -6,10 +6,15 @@ file list
  implementation of a GCN network in keras and subsequent evaluation and applying federated learning on implemented GCN model
  
 Federated Client
+
 A flower class client is defined that participates in the Federated Learning.
-The three functions of the federated client: get parameters, fit and evaluate
+
+The three functions of the federated client:
+get parameters,fit and evaluate
 are written to perform their respective tasks.
+
 The above methods are implemented to get the model parameters, train the
 model locally on the private dataset and evaluate the model on the same.
+
 Finally, the client receives global model parameters, trains locally, and sends
 back updated parameters to the server for aggregation.
