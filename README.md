@@ -1,4 +1,5 @@
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+# GCN_detect_bitcoin_money_laundering
+This project attempts the use new techniques in the field of AML applied to the bitcoin blockchain.
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+file list
+ GCN.ipynb, implementation of a GCN network in keras and subsequent evaluation
